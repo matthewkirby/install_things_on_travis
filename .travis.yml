@@ -23,6 +23,7 @@ install:
 script:
   # Run the unit tests:
   # - py.test --ignore=tests/crypt/ --ignore=cluster_toolkit/tests
+  - py.test
 
   # Run the docs:
   # - sphinx-quickstart -a "travis" -p clmm -v 0.0.1 --ext-autodoc -q
